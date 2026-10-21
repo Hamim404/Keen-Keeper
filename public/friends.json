@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/300?img=47",
+    "email": "david.kim@gmail.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Former manager who taught me how to run a design review. We used to grab coffee every month before he moved to Seattle.",
+    "goal": 30,
+    "next_due_date": "2026-09-19"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/300?img=32",
+    "email": "emma.wilson@outlook.com",
+    "days_since_contact": 42,
+    "status": "overdue",
+    "tags": ["family", "cousin"],
+    "bio": "My cousin and the one who keeps the family group chat alive. Just had her first baby, so a call is long overdue.",
+    "goal": 21,
+    "next_due_date": "2026-09-30"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/300?img=12",
+    "email": "lisa.nakamura@proton.me",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["college", "close friend"],
+    "bio": "Roommate through all four years of university. We still do a video call every two weeks and swap book recommendations.",
+    "goal": 14,
+    "next_due_date": "2026-10-23"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/300?img=15",
+    "email": "james.wright@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["hobby", "travel"],
+    "bio": "Met on a trek to Annapurna Base Camp. We're planning a trip to Sri Lanka next spring.",
+    "goal": 30,
+    "next_due_date": "2026-11-15"
+  },
+  {
+    "id": 5,
+    "name": "Priya Raman",
+    "picture": "https://i.pravatar.cc/300?img=25",
+    "email": "priya.raman@gmail.com",
+    "days_since_contact": 26,
+    "status": "almost due",
+    "tags": ["neighbor", "hobby"],
+    "bio": "Lives two floors above me and runs a weekend pottery class. I owe her a reply about joining the next session.",
+    "goal": 30,
+    "next_due_date": "2026-10-25"
+  },
+  {
+    "id": 6,
+    "name": "Carlos Mendes",
+    "picture": "https://i.pravatar.cc/300?img=53",
+    "email": "carlos.mendes@yahoo.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["school", "football"],
+    "bio": "Childhood friend from Lisbon. We watch the Benfica matches together online whenever we can.",
+    "goal": 45,
+    "next_due_date": "2026-11-26"
+  },
+  {
+    "id": 7,
+    "name": "Hannah Fischer",
+    "picture": "https://i.pravatar.cc/300?img=44",
+    "email": "hannah.fischer@web.de",
+    "days_since_contact": 75,
+    "status": "overdue",
+    "tags": ["work", "travel"],
+    "bio": "Met at a conference in Berlin and became a close friend. She just started a new job in Munich and I want to hear how it's going.",
+    "goal": 60,
+    "next_due_date": "2026-10-06"
+  },
+  {
+    "id": 8,
+    "name": "Omar Haddad",
+    "picture": "https://i.pravatar.cc/300?img=68",
+    "email": "omar.haddad@gmail.com",
+    "days_since_contact": 18,
+    "status": "on-track",
+    "tags": ["college", "hobby"],
+    "bio": "Played in the same university football team. We meet up for a Saturday five-a-side game whenever we're in the same city.",
+    "goal": 30,
+    "next_due_date": "2026-11-02"
+  }
+]
