@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const statusMap = {
@@ -62,7 +63,12 @@ export default async function Home() {
                   <div className="card-body items-center gap-0 px-4 py-6 text-center">
                     <div className="avatar">
                       <div className="w-[72px] rounded-full">
-                        <img src={f.picture} alt={f.name} />
+                        <Image
+                          width={50}
+                          height={50}
+                          src={f.picture}
+                          alt={f.name}
+                        ></Image>
                       </div>
                     </div>
 
