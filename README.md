@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 KeenKeeper
 
-## Getting Started
+**Friends to keep close in your life.**
 
-First, run the development server:
+Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-1AD1A5?style=for-the-badge&logo=daisyui&logoColor=white)
+
+
+---
+
+## 📖 About
+
+KeenKeeper is a relationship-tracking web app that helps you stay in touch with the people you care about. Set a contact goal for each friend, see at a glance who is on track and who needs attention, and keep a history of every call, text, video chat and meetup, so no friendship quietly slips away.
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+| --- | --- |
+| [Next.js](https://nextjs.org/) (App Router) | Framework, routing, layouts, loading and error pages |
+| [React](https://react.dev/) + JSX | Component-based UI |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
+| [DaisyUI](https://daisyui.com/) | UI components and a custom `keenkeeper` theme |
+| [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk) | Typography, loaded with `next/font` |
+| JSON | Friend profile data (`friends.json`) |
+
+## ✨ Key Features
+
+1. **📊 Friends dashboard**
+   See every friend as a card with their photo, tags and a colour-coded status badge (**On-Track**, **Almost Due** or **Overdue**), plus summary stats for total friends, friends on track, and friends who need attention.
+
+2. **👤 Friend details and goals**
+   Open a friend's profile to see days since last contact, their contact goal, the next due date and a short bio. Quick check-in options for call, text and video are one click away, along with snooze, archive and delete actions.
+
+3. **🕒 Interaction timeline**
+   A chronological timeline of every call, text, video chat and meetup, with a filter so you can look back at how you have stayed connected.
+
+## 🚀 Getting Started
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/keenkeeper.git
+cd keenkeeper
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+> The home page loads friends from `/friends.json`, so keep that file inside the `public/` folder.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with 💚 to keep friendships close.
