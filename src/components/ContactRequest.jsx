@@ -20,7 +20,11 @@ const ContactRequest = ({ friend }) => {
               toast.success(`Call with ${friend.name}!`);
               setContactHistory([
                 ...contactHistory,
-                { ...friend, label: "Call" },
+                {
+                  ...friend,
+                  label: "Call",
+                  contactDate: new Date().toLocaleDateString(),
+                },
               ]);
             }}
           >
@@ -53,7 +57,11 @@ const ContactRequest = ({ friend }) => {
               toast.success(`Text with ${friend.name}!`);
               setContactHistory([
                 ...contactHistory,
-                { ...friend, label: "Text" },
+                {
+                  ...friend,
+                  label: "Text",
+                  contactDate: new Date().toLocaleDateString(),
+                },
               ]);
             }}
           >
@@ -82,11 +90,15 @@ const ContactRequest = ({ friend }) => {
           {/* Video */}
           <button
             className="flex h-[52px] flex-col items-center justify-center gap-1 rounded-md border border-base-300 bg-base-200 text-xs text-neutral cursor-pointer"
-           onClick={() => {
+            onClick={() => {
               toast.success(`Video with ${friend.name}!`);
               setContactHistory([
                 ...contactHistory,
-                { ...friend, label: "Video" },
+                {
+                  ...friend,
+                  label: "Video",
+                  contactDate: new Date().toLocaleDateString(),
+                },
               ]);
             }}
           >

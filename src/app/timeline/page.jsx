@@ -41,7 +41,7 @@ export default function TimelinePage() {
                 <span className="font-medium text-primary">{e.label}</span>{" "}
                 <span className="text-xs text-base-content/60">with {e.name}</span>
               </p>
-              <p className="mt-1 text-xs text-base-content/70">{new Date().toLocaleDateString()}</p>
+              <p className="mt-1 text-xs text-base-content/70">{e.contactDate}</p>
             </div>
           </li>
         ))}
