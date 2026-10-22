@@ -2,6 +2,7 @@ import { Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AppProvider from "@/context/AppProvider";
 
 const hanken = Hanken_Grotesk({
   subsets: ["latin"],
@@ -17,9 +18,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="keenkeeper">
-      <body className={`${hanken.variable} font-sans bg-base-200 text-base-content flex min-h-screen flex-col`} suppressHydrationWarning>
+      <body
+        className={`${hanken.variable} font-sans bg-base-200 text-base-content flex min-h-screen flex-col`}
+        suppressHydrationWarning
+      >
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <AppProvider>
+          <main className="flex-1">{children}</main>
+        </AppProvider>
         <Footer />
       </body>
     </html>
