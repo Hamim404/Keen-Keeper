@@ -4,11 +4,13 @@
 
 Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
 
+🔗 **Live Demo:** [https://keen-keeper-pink.vercel.app](https://keen-keeper-pink.vercel.app/)
+
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![DaisyUI](https://img.shields.io/badge/DaisyUI-1AD1A5?style=for-the-badge&logo=daisyui&logoColor=white)
-
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
@@ -26,6 +28,7 @@ KeenKeeper is a relationship-tracking web app that helps you stay in touch with 
 | [DaisyUI](https://daisyui.com/) | UI components and a custom `keenkeeper` theme |
 | [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk) | Typography, loaded with `next/font` |
 | JSON | Friend profile data (`friends.json`) |
+| [Vercel](https://vercel.com/) | Hosting and deployment |
 
 ## ✨ Key Features
 
@@ -40,10 +43,12 @@ KeenKeeper is a relationship-tracking web app that helps you stay in touch with 
 
 ## 🚀 Getting Started
 
+Try it online at **[keen-keeper-pink.vercel.app](https://keen-keeper-pink.vercel.app/)**, or run it locally:
+
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/keenkeeper.git
-cd keenkeeper
+git clone https://github.com/hamim404/keen-keeper.git
+cd keen-keeper
 
 # 2. Install dependencies
 npm install
@@ -54,7 +59,7 @@ npm run dev
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-> The home page loads friends from `/friends.json`, so keep that file inside the `public/` folder.
+> Friend data lives in `public/friends.json` and is imported directly into the pages, so no separate server or API is needed. It works the same locally and on Vercel.
 
 ---
 
