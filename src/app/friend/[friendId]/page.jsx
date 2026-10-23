@@ -10,7 +10,7 @@ const statusMap = {
 
 const FriendDetailPage = async ({ params }) => {
   const { friendId } = await params;
-  const friendRes = await fetch("http://localhost:3000/friends.json");
+  const friendRes = await fetch("https://keen-keeper-pink.vercel.app/friends.json");
   const friends = await friendRes.json();
   const friend = friends.find((f) => f.id === parseInt(friendId));
   const status = statusMap[friend.status];

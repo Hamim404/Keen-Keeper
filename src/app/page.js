@@ -8,7 +8,7 @@ const statusMap = {
 };
 
 export default async function Home() {
-  const res = await fetch("http://localhost:3000/friends.json");
+  const res = await fetch("https://keen-keeper-pink.vercel.app/friends.json");
   const friends = await res.json();
 
   const onTrack = friends.filter((f) => f.status === "on-track").length;
